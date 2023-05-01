@@ -14,7 +14,7 @@ body {
 .nav img {
   	width: 100%;
   	min-width: auto;
-  	max-width: 200px;
+  	max-width: 500px;
 }
 
 img {
@@ -28,7 +28,6 @@ img {
 }
     
 a {
-    	color: lightblue;
     	text-decoration: none;
 }
 .content {
