@@ -1,36 +1,42 @@
 body {
   	text-align: center;
   	color: black;
+	
 }
 .nav {
 	display: flex;
-  	flex-direction: row;
-  	align-items: center;
-  	justify-content: space-around;
-  	margin: auto;
-  	padding: 5px;
- 
+	flex-direction: column;
 }
+
+.links {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	margin: 0 auto;
+	max-width: 500px;
+
+}
+
+
 .nav img {
-  	width: 100%;
+	width: 100%;
   	min-width: auto;
   	max-width: 500px;
 }
 
-img {
-	padding: 5px;
-}
 @media screen and (max-width: 420px) {
-  .nav {
+  .nav, .links {
     	flex-direction: column;
     	flex-wrap: nowrap;
   }
 }
     
 a {
+	color:black;
     	text-decoration: none;
 }
 .content {
-	
+	display: flex;
+	margin: 0 auto;
+	max-width: 600px;
 }
-
