@@ -57,4 +57,5 @@ a {
 	display: flex;
 	margin: 0 auto;
 	max-width: 800px;
+	flex-direction: column;
 }
