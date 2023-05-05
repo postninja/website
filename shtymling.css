@@ -4,14 +4,7 @@
          url('nhaasgroteskdspro-75bd-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
 
-@font-face {
-    font-family: 'neuehaastext';
-    src: url('nhaasgrotesktxpro-55rg-webfont.woff2') format('woff2'),
-         url('nhaasgrotesktxpro-55rg-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 }
 
 body {
@@ -65,5 +58,17 @@ a {
 	margin: 0 auto;
 	max-width: 700px;
 	flex-direction: column;
-	font-family: 'neuehaastext';
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.image {
+	padding: 20px;
 }
