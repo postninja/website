@@ -15,9 +15,8 @@
 }
 
 body {
-  	text-align: center;
   	color: black;
-	
+	text-align: center;
 }
 .nav {
 	display: flex;
@@ -79,4 +78,44 @@ a {
 
 .image {
 	padding: 20px;
+}
+
+.container {
+	max-width: 700px; 
+	text-align: left;
+	font-size: 24px;
+	border: 1px solid #000000;
+	padding: 20px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  border: 1px solid #000000;
+  color: black;
+  padding: 12px 20px;
+  cursor: pointer;
+  background-color: #ffffff;
+  font-size: 24px;
+  text-align: right;
+}
+
+input[type=submit]:hover {
+  text-shadow: 1px 0px 0px black;
+}
+
+.container {
+  
 }
