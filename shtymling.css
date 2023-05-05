@@ -4,7 +4,14 @@
          url('nhaasgroteskdspro-75bd-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
 
+@font-face {
+    font-family: 'neuehaastext';
+    src: url('nhaasgrotesktxpro-55rg-webfont.woff2') format('woff2'),
+         url('nhaasgrotesktxpro-55rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
