@@ -1,9 +1,3 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 @font-face {
     font-family: 'neuehaas';
     src: url('nhaasgroteskdspro-75bd-webfont.woff2') format('woff2'),
@@ -23,8 +17,6 @@
 body {
   	color: black;
 	text-align: center;
-	width: 100%;
-  	height: 100vh;
 }
 .nav {
 	display: flex;
@@ -124,25 +116,6 @@ input[type=submit]:hover {
   text-shadow: 1px 0px 0px black;
 }
 
-label:after{
-  content: '🌙';
-  position: absolute;
-  top: 10px;
-  left: calc(100% - 35px);
-  transition: 0.5s;
-}
-
-.background{
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  background: #dddddd;
-  z-index: -1;
-  transition: 0.5s;
-}
-input:checked + label + .background{
-  background: #121212;
-}
-input{
-  display: none;
+.container {
+  
 }
